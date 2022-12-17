@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/uikit.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/h_logo.jpg">
+  <title>HEXALG</title>
+</head>
+<body>
+<!--JQUERY FLUGINS= (1)LIGHTBOX (2)STIKY FROM UIKIT WEBPAGE-->
+<!--START NAVIGATION-->
+  <nav class="navbar navbar-dark  navbar-expand-md" uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">HEXALG</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navItem">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navItem" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">customer interface</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">agent interface</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">service modality and guidlines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">about and contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--END NAVIGATION-->
+
+  <!--START CAROUSOL SECTION-->
+  <section id="show-slide" class="bg-dark">
+    <div  class="carousel slide" id="mycarousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-slide-to="0" data-target="#mycarousel" class="active"></li>
+        <li data-slide-to="1" data-target="#mycarousel"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item image-no-1 active">
+          <div class="container">
+            <div class="carousel-caption pb-5 mb-5">
+              <h2 class="display-4 text-light">Heading One</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+              <a href="#" class="btn btn-outline-danger">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item image-no-2">
+          <div class="container">
+            <div class="carousel-caption pb-5 mb-5 text-left">
+              <h2 class="display-4 text-light">Heading Two</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+              <a href="#" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#mycarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#mycarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+  <!--END CAROUSOL SECTION-->
+  <!--STRT HOME-ICON SECTION-->
+  <section id="home-icon" class="text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 my-2">
+          <i class="fa fa-gear"></i>
+          <h3 class="my-2">Turning Gears</h3>
+          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+        </div>
+        <div class="col-md-4 my-2">
+          <i class="fa fa-cloud"></i>
+          <h3 class="my-2">Sending Data</h3>
+          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+        </div>
+        <div class="col-md-4 my-2">
+          <i class="fa fa-cart-plus"></i>
+          <h3 class="my-2">Making Money</h3>
+          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END HOME-ICON SECTION-->
+  <!--START GET-START SECTION-->
+  <section id="get-start" class="text-center py-5">
+    <div class="darkoverlay">
+      <div class="container">
+        <div class="row">
+          <div class="col mt-5 pt-4">
+            <h2 class="text-light pb-2">Are You Ready To Get Started?</h2>
+            <p class="lead text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END GET-START SECTION-->
+  <!--START INFO SECTION-->
+  <section id="infosec" class="py-5 my-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center text-md-left text-lg-">
+          <h3>Lorem Ipsum Dolor Sit</h3>
+          <p class="lead py-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quaerat unde labore sequi facilis possimus nulla a! Aliquam, saepe illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, praesentium!</p>
+          <a href="#" class="btn btn-dark">Read More</a>
+        </div>
+        <div class="col-md-6 mt-2 mt-lg-0">
+          <img src="img/girl1 (5).jpg" class="img-fluid" alt="girl">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END INFO SECTION-->
+  <!--START HOME-VIDEO SECTION-->
+  <section id="home-video" class="text-center">
+    <div class="darkoverlay">
+      <div class="container">
+        <div class="row">
+          <div class="col mt-5 pt-4">
+            <div uk-lightbox>
+              <a href="https://youtu.be/NPm4R_IvP1E">
+                <i class="fa fa-youtube-square text-light"></i>
+              </a>
+            </div>
+            <h2 class="text-light mt-3">Goast Is Waiting For You!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END HOME-VIDEO SECTION-->
+  <!--START GALLARY SECTION-->
+  <section id="gallary" class="py-5" uk-lightbox>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Crush Gallery</h2>
+          <p class="lead">Choose A Girl To Marry</p>
+        </div>
+      </div>
+      <div class="row pt-2">
+        <div class="col-md-4 py-1 py-md-0">
+          <a href="img/girl1 (1).jpeg">
+            <img src="img/girl1 (1).jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-md-4 py-1 py-md-0">
+          <a href="img/girl1 (1).jpg">
+            <img src="img/girl1 (1).jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-4 py-1 py-md-0">
+          <a href="img/girl1 (6).jpg">
+            <img src="img/girl1 (6).jpg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="row pt-md-4">
+        <div class="col-md-4 py-1 py-md-0">
+          <a href="img/girl1 (2).jpg">
+            <img src="img/girl1 (2).jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-4 py-1 py-md-0">
+          <a href="img/girl1 (4).jpg">
+            <img src="img/girl1 (4).jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-4 py-1 py-md-0">
+          <a href="img/girl1 (7).jpg">
+            <img src="img/girl1 (7).jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END GALLARY SECTION-->
+  <!--START SIGNUP SECTION-->
+  <section id="signup" class="text-center bg-dark py-5">
+    <div class="container">
+      <h2 class="text-light">Signup For Our Newsletter</h2>
+      <p class="lead text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
+      <form action="POST" class="form-inline justify-content-center">
+        <label class="sr-only" for="name">Name</label>
+        <input class="form-control m-2" type="text" name="name" value="Enter Name">
+        <label class="sr-only" for="email">email</label>
+        <input class="form-control m-2" type="email" name="email" value="Enter Email">
+        <input type="submit" name="submit" value="Subscribe" class="btn btn-primary m-2">
+      </form>
+    </div>
+  </section>
+  <!--END SIGNUP SECTION-->
+  <!--START COPYRIGHT SECTION-->
+  <section id="copyright" class="text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead text-light mb-0">Copyright 2018 &copy; Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END COPYRIGHT SECTION-->
+
+
+  <!--js script-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+$icon-size: 50px;
+$darkoverlay: rgba(0,0,0,0.7);
+.navbar{
+ background: #000000;
+  .nav-item{
+   padding-left: 1em;
+
+    .nav-link{
+      text-transform: uppercase;
+    }
+  }
+}
+.carousel-item{
+  height: 450px
+}
+.image-no-1{
+  background: url('../img/walpaper1 (2).jpg');
+  background-position: center;
+  background-size: cover;
+}
+.image-no-2{
+  background: url('../img/walpaper1 (1).jpg');
+  background-position: center;
+  background-size: cover;
+}
+.image-no-3{
+  background: url('../img/walpaper1 (1).jpeg');
+  background-position: center;
+  background-size: cover;
+}
+#home-icon{
+  i{
+    font-size: $icon-size;
+  }
+}
+#get-start{
+  position: relative;
+  background: url('../img/gari.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  min-height: 250px;
+   .darkoverlay{
+    background: $darkoverlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+}
+
+#home-video{
+  position: relative;
+  background: url('../img/walpaper1 (2).jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  min-height: 250px;
+   .darkoverlay{
+    background: $darkoverlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+      i{
+        font-size: $icon-size;
+      }
+   }
+}
+#about-page-header{
+  background: url('../img/wal (2).jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+#copyright{
+  background: #000;
+}
+#what-we-do{
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+#about-blog{
+  i{
+    font-size: $icon-size;
+    margin-bottom: 20px;
+  }
+}
+#testimonial{
+  .slick-prev::before,
+  .slick-next::before{
+    color: #000;
+  }
+}
+#services-header{
+  background: url('../img/wal (3).jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+#blog-header{
+  background: url('../img/wal (1).jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#contact-header{
+  background: url('../img/walpaper1 (4).jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@media(max-width: 767px){
+  #get-start{
+    min-height: 300px;
+  }
+  #infosec{
+
+    h2{
+      font-size: 25px;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+
+}
+@media(max-width: 480px){
+  #show-slide{
+
+    h2{
+      font-size: 2.5rem;
+    }
+  }
+  #get-start{
+    min-height: 420px;
+  }
+}
+@media(max-width: 360px){
+  #show-slide{
+    h2{
+      font-size: 2rem;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+  }
